@@ -1,8 +1,8 @@
 import React from 'react';
-import { Router, Route } from 'reactRouter';
-import ListCreator from 'es6!app/components/ListCreator';
-import ListManager from 'es6!app/components/ListManager';
-import NotFound from 'es6!app/components/NotFound';
+import { Router, Route } from 'react-router';
+import ListCreator from './ListCreator';
+import ListManager from './ListManager';
+import NotFound from './NotFound';
 
 let routes = (
 	<Router>
